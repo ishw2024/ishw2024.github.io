@@ -354,6 +354,22 @@ main h2.normal {
 }
 
 
+/*ボタンブロック*/
+main  .btn {
+	padding: 0; margin: 25px auto;
+	list-style: none;
+	text-align: center;
+}
+
+/*ボタン１個あたり*/
+main .btn li a {
+	display: block;text-decoration: none;
+	background: linear-gradient(#ffc000, #ffa800);/*背景グラデーション*/
+	color: #333;	/*文字色*/
+	border-radius: 3px;	/*角を丸くする指定*/
+	padding: 0.5rem 1.5rem;	/*上下に0.5文字分、左右に1.5文字分、ボタン内に余白を作る*/
+}
+
 /*フッターメニュー
 ---------------------------------------------------------------------------*/
 /*メニューブロック全体*/
